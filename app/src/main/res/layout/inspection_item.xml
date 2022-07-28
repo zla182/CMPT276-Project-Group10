@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtInspectionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="roboto_light"
+        android:text="Inspection date "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtCriticalViolations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInspectionDate"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="roboto_light"
+        android:text="Num critical violations"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNonCriticalViolations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCriticalViolations"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="roboto_light"
+        android:text="Num nonCritical violations"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgViewViolationIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtInspectionDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/exception" />
+</RelativeLayout>

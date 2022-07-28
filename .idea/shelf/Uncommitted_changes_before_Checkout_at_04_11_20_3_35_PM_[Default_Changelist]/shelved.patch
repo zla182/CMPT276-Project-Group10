@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/example/project276/Model/RestaurantManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.project276.Model;\n\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.Comparator;\nimport java.util.Iterator;\nimport java.util.List;\n\npublic class RestaurantManager implements Iterable<Restaurant>{\n\n    private static List<Restaurant> restaurantList = new ArrayList<>();\n\n    private static RestaurantManager manager;\n\n    @Override\n    public Iterator<Restaurant> iterator() { return restaurantList.iterator(); }\n\n    public static RestaurantManager getManager() {\n        if (manager == null) {\n            manager = new RestaurantManager();\n        }\n        return manager;\n    }\n\n    private RestaurantManager(){ }\n\n    //add restaurant\n    public void add(Restaurant restaurant){\n        restaurantList.add(restaurant);\n    }\n\n    //getters\n    public int getSize() { return restaurantList.size(); }\n    public static Restaurant getIndex(int n){\n        return restaurantList.get(n);\n    }\n\n\n    //sorting methods\n\n    public void sortByName() {\n        Comparator<Restaurant> compareByName = new Comparator<Restaurant>() { //Compares restaurant names\n            @Override\n            public int compare(Restaurant restaurant1, Restaurant restaurant2) {\n                return restaurant1.getName().compareTo(restaurant2.getName());\n            }\n        };\n        Collections.sort(restaurantList, compareByName);\n    }\n\n    public void sortByDate() {\n        Comparator<Inspection> compareByDate = new Comparator<Inspection>() {\n            @Override\n            public int compare(Inspection inspection1, Inspection inspection2) {\n                return inspection1.getInspectionDate().compareTo(inspection2.getInspectionDate());\n            }\n        };\n\n        for (Restaurant restaurant : restaurantList){\n            Collections.sort(restaurant.inspectionList, compareByDate.reversed());\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/project276/Model/RestaurantManager.java	(revision 44c739589a2ef82c647988fe14090e4865f420cc)
++++ app/src/main/java/com/example/project276/Model/RestaurantManager.java	(date 1604532767000)
+@@ -37,7 +37,6 @@
+ 
+ 
+     //sorting methods
+-
+     public void sortByName() {
+         Comparator<Restaurant> compareByName = new Comparator<Restaurant>() { //Compares restaurant names
+             @Override

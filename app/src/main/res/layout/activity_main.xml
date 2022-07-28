@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context=".UI.MainActivity">
+
+    <Button
+        android:id="@+id/ClearSearchList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:background="#6411F8"
+        android:text="Clear Search"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/restaurantsListView"
+        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/restaurantsListView"
+        app:layout_constraintEnd_toStartOf="@+id/ClearSearchList"
+        app:layout_constraintStart_toEndOf="@+id/MapButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MapButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/map"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toTopOf="@+id/restaurantsListView"
+        app:layout_constraintEnd_toStartOf="@+id/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/restaurantsListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbutton"
+        app:layout_constraintVertical_bias="1.0">
+
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/loadingWheelMain"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ExtraOptionsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:background="#6411F8"
+        android:text="Extra Options"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toEndOf="@+id/ClearSearchList"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

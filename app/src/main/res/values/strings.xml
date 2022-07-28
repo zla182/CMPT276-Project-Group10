@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Project276</string>
+    <string name="restaurant_name">%1$s</string>
+    <string name="restaurant_address">Address: %1$s</string>
+    <string name="restaurant_position">Coordinates: %1$s</string>
+    <string name="restaurant_activity_position">Coordinates: %1$s</string>
+    <string name="inspection_item_date">Inspection date: %1$s</string>
+    <string name="inspection_item_critical_violations">Critical violations: %1$s</string>
+    <string name="inspection_item_non_critical_violations">Non-critical violations: %1$s</string>
+    <string name="violation_description">%1$s</string>
+
+    <string name="inspection_activity_violation_description">
+        Violation number: %1$s. Critical violation: %2$s. %3$s. Repeat: %4$s.
+    </string>
+    <string name="inspection_activity_date">Date: %1$s</string>
+    <string name="inspection_activity_type">Type: %1$s</string>
+    <string name="inspection_activity_critical_num">Critical violations: %1$s</string>
+    <string name="inspection_activity_non_critical_num">Non-critical violations: %1$s</string>
+    <string name="inspection_activity_hazard_rating">Hazard rating: %1$s</string>
+
+    <string name="main_activity_restaurant_name">%1$s</string>
+    <string name="main_activity_restaurant_last_inspection_date">Last inspection: %1$s</string>
+    <string name="main_activity_no_inspection">This restaurant has never had an inspection</string>
+    <string name="main_activity_restaurant_violations">Violations: %1$s</string>
+    <string name="main_activity_restaurant_violations_no_inspection" />
+    <string name="title_activity_maps">Map</string>
+    <string name="map_button">Button</string>
+    <string name="last_inspection_date">Last Inspection: %1$s</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Restaurant Name</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="title_activity_restaurant">title activity restaurant</string>
+    <string name="display_formate_criticalnum_non_criticalnum_relative_type_hazardlevel_icon">display formate：CriticalNum，Non-CriticalNum，Relative，Type，HazardLevel，Icon </string>
+    <string name="coordinates">坐标：</string>
+    <string name="main_activity_restaurant_item_last_inspection_date">last inspection date：%1$s</string>
+    <string name="main_activity_restaurant_item_violations">violation：%1$s</string>
+    <string name="main_activity_restaurant_item_violations_no_inspection" />
+    <string name="restaurant_activity_restaurant_address">address：%1$s</string>
+    <string name="restaurant_activity_restaurant_coords">coords：%1$s</string>
+    <string name="restaurant_activity_inspection_item_date">inspection item date：%1$s</string>
+    <string name="restaurant_activity_inspection_item_crit_viols">item critical violations：%1$s</string>
+    <string name="restaurant_activity_inspection_item_non_crit_viols">item noncritical violations：%1$s</string>
+    <string name="inspection_activity_violation_item_brief_description">%1$s</string>
+    <string name="inspection_activity_violation_item_full_description"> Illegal number：%1$s。Critical violations：%2$s。 %3$s。repeat：%4$s。</string>
+    <string name="inspection_activity_critical_violations">critical violations：%1$s</string>
+    <string name="inspection_activity_non_critical_violations">noncritical violations：%1$s</string>
+    <string name="ask_user_to_update_message">update message</string>
+    <string name="ask_user_to_update_accept">Yes</string>
+    <string name="ask_user_to_update_decline">No</string>
+    <string name="please_wait_dialog_message">wait dialog message</string>
+    <string name="please_wait_dialog_cancel">cancel</string>
+    <string name="launch_list">launch list</string>
+    <string name="launch_map">launch map</string>
+    <string name="no_inspection_data_available">no inspection data available</string>
+    <string name="enter_the_key_word_here">enter the key word here</string>
+    <string name="please_enter_some_key_words_to_help_search">please enter some key words to help search </string>
+    <string name="search_by_violation_num">search by violation num</string>
+    <string name="search_by_the_hazard_level">search by the hazard level</string>
+    <string name="click_to_start">click to start</string>
+    <string name="click_to_clean">click to clean</string>
+    <string name="num">num</string>
+    <string name="click_to_get_favorite_only">click to get favorite only</string>
+    <string name="please_enter_the_key_word">enter the key word</string>
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+    <string name="of_violations_here">#of violations here</string>
+    <string name="favourite_restaurant">favourite restaurant</string>
+    <string name="back_button">Back_Button</string>
+    <string name="map">map</string>
+    <string name="list">List</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="position">Position</string>
+    <string name="hazard_level" translatable="false">Hazard Level</string>
+    <string-array name="HazardlevelStr">
+        <item>All</item>
+        <item>Low</item>
+        <item>Media</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="ViolationNumBound">
+        <item>All</item>
+        <item>Great or equal</item>
+        <item>Less</item>
+    </string-array>
+    <string-array name="ChooseFavor">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+</resources>

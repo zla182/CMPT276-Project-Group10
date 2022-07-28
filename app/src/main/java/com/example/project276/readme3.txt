@@ -1,0 +1,1 @@
+Our app can be translated into English (Wow!), Mandarin, Traditional Chinese, Russian, and Japanese

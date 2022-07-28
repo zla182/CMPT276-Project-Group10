@@ -1,0 +1,95 @@
+<resources>
+    <string name ="app_name">餐館檢查：薩里</string>
+    <string name ="name">名稱：</string>
+    <string name ="address">地址：</string>
+    <string name ="longitude">經度：</string>
+    <string name ="latitude">緯度：</string>
+    <string name ="title_activity_restaurant">餐廳</string>
+    <string name ="display_formate_criticalnum_non_criticalnum_relative_type_hazardlevel_icon">顯示格式：CriticalNum，Non-CriticalNum，Relative，Type，HazardLevel，Icon </string>
+    <string name ="coordinates">坐標：</string>
+
+    <string name ="main_activity_restaurant_name">%1$s</string>
+    <string name ="main_activity_restaurant_item_last_inspection_date">最後一次檢查：%1$s</string>
+    <string name ="main_activity_restaurant_item_violations">違反：%1$s</string>
+    <string name ="main_activity_restaurant_item_violations_no_inspection" />
+
+    <string name ="restaurant_name">%1$s</string>
+    <string name ="restaurant_activity_restaurant_address">地址：%1$s</string>
+    <string name ="restaurant_activity_restaurant_coords">坐標：%1$s</string>
+    <string name ="restaurant_activity_inspection_item_date">最後一次檢查：%1$s</string>
+    <string name ="restaurant_activity_inspection_item_crit_viols">嚴重違規：%1$s</string>
+    <string name ="restaurant_activity_inspection_item_non_crit_viols">非嚴重違規：%1$s</string>
+
+    <string name ="inspection_activity_violation_item_brief_description">%1$s</string>
+    <string name ="inspection_activity_violation_item_full_description">
+        違規編號：%1$s。嚴重違規：%2$s。 %3$s。重複：%4$s。
+    </string>
+    <string name ="inspection_activity_date">日期：%1$s</string>
+    <string name ="inspection_activity_type">類型：%1$s</string>
+    <string name ="inspection_activity_critical_violations">嚴重違規：%1$s</string>
+    <string name ="inspection_activity_non_critical_violations">非嚴重違規：%1$s</string>
+    <string name ="inspection_activity_hazard_rating">危險等級：%1$s</string>
+    <string name ="title_activity_maps">地圖</string>
+    <string name ="ask_user_to_update_message">有新數據要下載。您要下載嗎？</string>
+    <string name ="ask_user_to_update_accept">是</string>
+    <string name ="ask_user_to_update_decline">否</string>
+    <string name ="please_wait_dialog_message">正在下載數據，請稍候。如果要取消下載，請按“取消"。</string>
+    <string name ="please_wait_dialog_cancel">取消</string>
+    <string name ="launch_list">切換到列表</string>
+    <string name ="launch_map">切換到地圖</string>
+    <string name ="no_inspection_data_available">沒有可用的檢查數據。</string>
+    <string name ="enter_the_key_word_here">在此處輸入關鍵字</string>
+    <string name ="please_enter_some_key_words_to_help_search">請輸入關鍵詞 </string>
+    <string name ="search_by_violation_num">按違反編號搜索</string>
+    <string name ="search_by_the_hazard_level">按危險等級搜索</string>
+    <string name ="click_to_start">單擊以開始</string>
+    <string name ="click_to_clean">點擊進行清理</string>
+    <string name ="num">數字</string>
+    <string name ="click_to_get_favorite_only">單擊以僅獲取收藏夾</string>
+    <string name ="please_enter_the_key_word">請輸入關鍵字</string>
+    <string name ="search">搜索</string>
+    <string name="submit">提交</string>
+    <string name="reset">重啟</string>
+    <string name="of_violations_here">#違規事件</string>
+    <string name="favourite_restaurant">最喜歡的餐廳</string>
+    <string name="search_hint">飯店名稱</string>
+    <string name="last_inspection_date">最後一次檢查的日期: %1$s</string>
+    <string name="map_button">地圖</string>
+    <string name="main_activity_restaurant_last_inspection_date">最後一次檢查: %1$s</string>
+    <string name="main_activity_no_inspection">這家餐廳從未接受檢查</string>
+    <string name="main_activity_restaurant_violations">嚴重違反: %1$s</string>
+    <string name="main_activity_restaurant_violations_no_inspection" />
+    <string name="inspection_activity_critical_num">嚴重違反: %1$s</string>
+    <string name="inspection_activity_non_critical_num">非嚴重違反: %1$s</string>
+    <string name="restaurant_address">地址: %1$s</string>
+    <string name="restaurant_position">坐标: %1$s</string>
+    <string name="restaurant_activity_position">坐标: %1$s</string>
+    <string name="inspection_item_date">檢查日期: %1$s</string>
+    <string name="inspection_item_critical_violations">嚴重違反: %1$s</string>
+    <string name="inspection_item_non_critical_violations">非嚴重違反: %1$s</string>
+    <string name="violation_description">%1$s</string>
+    <string name="back_button">後退</string>
+    <string name="map">地圖</string>
+    <string name="list">列表</string>
+    <string name="back">後退</string>
+    <string name="position">坐標</string>
+    <string name="inspection_activity_violation_description"></string>
+    <string-array name ="HazardlevelStr">
+        <item>全部</item>
+        <item>低</item>
+        <item>中等</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name ="ViolationNumBound">
+        <item>全部</item>
+        <item>大於等於</item>
+        <item>小於</item>
+    </string-array>
+    <string-array name ="ChooseFavor">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+
+</resources>
